@@ -4,7 +4,7 @@
     <CheatEntry>
       <ID>1</ID>
       <Description>"FOV Base Pointer"</Description>
-      <LastState Value="45" RealAddress="03E29618"/>
+      <LastState Value="95" RealAddress="03D79618"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>lotroclient64.exe+26E5240</Address>
@@ -14,6 +14,28 @@
         <Offset>0</Offset>
         <Offset>10</Offset>
       </Offsets>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Increase Value</Action>
+          <Keys>
+            <Key>17</Key>
+            <Key>33</Key>
+          </Keys>
+          <Value>5</Value>
+          <Description>Increase FOV</Description>
+          <ID>0</ID>
+        </Hotkey>
+        <Hotkey>
+          <Action>Decrease Value</Action>
+          <Keys>
+            <Key>17</Key>
+            <Key>34</Key>
+          </Keys>
+          <Value>5</Value>
+          <Description>Decrease FOV</Description>
+          <ID>1</ID>
+        </Hotkey>
+      </Hotkeys>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
