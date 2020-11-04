@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="31">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"3rd person FOV"</Description>
+      <LastState Value="85" RealAddress="0658F810"/>
+      <VariableType>Float</VariableType>
+      <Address>"lotroclient.exe"+17d94a0</Address>
+      <Offsets>
+        <Offset>10</Offset>
+        <Offset>68</Offset>
+        <Offset>0</Offset>
+        <Offset>C</Offset>
+      </Offsets>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Increase Value</Action>
+          <Keys>
+            <Key>17</Key>
+            <Key>33</Key>
+          </Keys>
+          <Value>5</Value>
+          <Description>Increase FOV</Description>
+          <ID>0</ID>
+        </Hotkey>
+        <Hotkey>
+          <Action>Decrease Value</Action>
+          <Keys>
+            <Key>17</Key>
+            <Key>34</Key>
+          </Keys>
+          <Value>5</Value>
+          <Description>Decrease FOV</Description>
+          <ID>1</ID>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
