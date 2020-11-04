@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="31">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"FOV"</Description>
+      <LastState Value="120" RealAddress="01BD593C"/>
+      <VariableType>Float</VariableType>
+      <Address>01bd593c</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"Mabye FOV factor 1"</Description>
+      <LastState Value="1.333333373" RealAddress="01BD5948"/>
+      <VariableType>Float</VariableType>
+      <Address>lotroclient.exe+17D5948</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"Maybe FOV Factor 2"</Description>
+      <LastState Value="90" RealAddress="01BD5938"/>
+      <VariableType>Float</VariableType>
+      <Address>lotroclient.exe+17D5938</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"3rd person FOV"</Description>
+      <LastState Value="90" RealAddress="0658F810"/>
+      <VariableType>Float</VariableType>
+      <Address>"lotroclient.exe"+17d94a0</Address>
+      <Offsets>
+        <Offset>10</Offset>
+        <Offset>68</Offset>
+        <Offset>0</Offset>
+        <Offset>C</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
