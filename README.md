@@ -47,12 +47,16 @@ If you don't know what this means, you need the 32-bit version.
    **Only press these keys in 3rd-person mode while in the game. Do not press
    the keys in any other mode, like the character select screen, first-person
    mode or in-game cutscenes.** You will overwrite arbitrary memory, leading to
-   unpredictable behaviour or even crashes.
+   unpredictable behaviour or even crashes. Once you have set the FOV, the
+   other modes will work as before. Just don't press the keys while in any
+   other mode.
 1. Optional: Once you have found your favourite FOV value, you can bind it
    directly to the hotkey Ctrl-Home. Tab out to Cheat Engine and note the value
    currently being displayed in "FOV Base Pointer". Then right-click the "FOV
    Base Pointer" entry in Cheat Table and select "Set/Change Hotkeys". Enter
-   the value as shown in the the screenshot below.
+   the value as shown in the the screenshot below. Save the cheat table, and
+   next time you run the game you can use this key to directly set the FOV to
+   your preferred value.
 
    Set your own preference: ![change hotkeys screenshot][change-hotkeys]
 
