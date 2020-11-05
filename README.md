@@ -53,7 +53,7 @@ If you don't know what this means, you need the 32-bit version.
 1. Optional: Once you have found your favourite FOV value, you can bind it
    directly to the hotkey Ctrl-Home. Tab out to Cheat Engine and note the value
    currently being displayed in "FOV Base Pointer". Then right-click the "FOV
-   Base Pointer" entry in Cheat Table and select "Set/Change Hotkeys". Enter
+   Base Pointer" entry in Cheat Engine and select "Set/Change Hotkeys". Enter
    the value as shown in the the screenshot below. Save the cheat table, and
    next time you run the game you can use this key to directly set the FOV to
    your preferred value.
@@ -89,7 +89,7 @@ Development notes
 - By sheer luck I found out that the third one is the one we want.
 - This value is stored in some nested object, and changes location every time
   you switch scenes or restart the game.
-- To create this cheat table I followed the instructions of Cheat Table's
+- To create this cheat table I followed the instructions of Cheat Engine's
   tutorial for nested pointers to find the base pointer. From the base pointer
   to the scene factor it's 4 indirections with varying offsets. Make sure to
   understand the nested pointer tutorial to understand what's going on.
