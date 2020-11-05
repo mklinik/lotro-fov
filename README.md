@@ -4,11 +4,12 @@ lotro FOV mod
 This is a cheat table to change the field-of-view (FOV) of the third-person
 camera in Lord of the Rings Online.
 
-I asked the dev team to implement an FOV setting, but what are the chances of
-that happening. So I did it myself. This mod is not perfect, it breaks the
-animation when scrolling in, but other than that seems to be pretty stable. I
-have tested it for some hours while running around the Shire, so if you find
-any issues with it let me know in the issue tracker.
+Narrow FOV settings in games give me motion sickness. I asked the dev team to
+implement an FOV setting, but what are the chances of that happening. So I did
+it myself. This mod is not perfect, it breaks the animation when scrolling in,
+but other than that seems to be pretty stable. I have tested it for some hours
+while running around the Shire, so if you find any issues with it let me know
+in the issue tracker.
 
 Default FOV ![default FOV screenshot][default-fov]
 Wide FOV ![wide FOV screenshot][wide-fov]
