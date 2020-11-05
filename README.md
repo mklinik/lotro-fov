@@ -19,9 +19,9 @@ If you don't know what this means, you need the 32-bit version.
 1. Start lotro, log in and go into the game. Make sure that the camera is in
    3rd-person view. This mod does not work for first-person view, so don't be
    zoomed all the way in.
-1. Tab out to windows and start Cheat Engine. Cheat Engine also comes in 32-bit
-   and 64-bit variants. Choose the one that matches the lotro client you are
-   running.
+1. Tab out of the game to Windows and start Cheat Engine. Cheat Engine also
+   comes in 32-bit and 64-bit variants. You need to start the one matching
+   your lotro client.
 1. Attach Cheat Engine to the running lotro process. To do this, click on the
    attach to process icon (marked red in the screenshot below), then select the
    process of the lotro client. If you have the launcher running, make sure to
@@ -33,6 +33,13 @@ If you don't know what this means, you need the 32-bit version.
    lotro client: 32-bit or 64-bit.
 
    Open cheat table: ![open cheat table screenshot][load-cheat-table]
+1. If everything worked properly you should see a memory location at the bottom
+   of Cheat Engine called "FOV Base Pointer" of type Float with value 45. **If
+   you see a garbage value or lots of question marks ??????? something went
+   wrong. Stop! Do not continue.**
+
+   Verify that the value 45 is found:
+   ![verify value screenshot][verify-value]
 
 
 
@@ -40,3 +47,4 @@ If you don't know what this means, you need the 32-bit version.
 [wide-fov]: https://github.com/mklinik/lotro-fov/raw/master/doc/20201105070623_1.jpg
 [attach-to-process]: https://github.com/mklinik/lotro-fov/raw/master/doc/attach-to-process.png
 [load-cheat-table]: https://github.com/mklinik/lotro-fov/raw/master/doc/load-cheat-table.png
+[verify-value]: https://github.com/mklinik/lotro-fov/raw/master/doc/verify-value.png
