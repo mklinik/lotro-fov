@@ -1,8 +1,8 @@
 lotro FOV mod
 =============
 
-This is a cheat table for cheat engine to change the field-of-view (FOV) of the
-third-person camera of the game Lord of the Rings Online.
+This is a cheat table to change the field-of-view (FOV) of the third-person
+camera in Lord of the Rings Online.
 
 Default FOV ![default FOV screenshot][default-fov]
 Wide FOV ![wide FOV screenshot][wide-fov]
@@ -36,11 +36,25 @@ If you don't know what this means, you need the 32-bit version.
 1. If everything worked properly you should see a memory location at the bottom
    of Cheat Engine called "FOV Base Pointer" of type Float with value 45. **If
    you see a garbage value or lots of question marks ??????? something went
-   wrong. Stop! Do not continue.**
+   wrong. Stop! Do not continue.** You have either selected the wrong version
+   of the cheat table, or a newer version of the game has been released, and
+   the cheat table is no longer compatible with it.
 
    Verify that the value 45 is found:
    ![verify value screenshot][verify-value]
+1. Tab back into the game and press Ctrl-PageUp or Ctrl-PageDown to increase or
+   decrease the FOV.
+   **Only press these keys in 3rd-person mode while in the game. Do not press
+   the keys in any other mode, like the character select screen, first-person
+   mode or in-game cutscenes.** You will overwrite arbitrary memory, leading to
+   unpredictable behaviour or even crashes.
+1. Optional: Once you have found your favourite FOV value, you can bind it
+   directly to the hotkey Ctrl-Home. Tab out to Cheat Engine and note the value
+   currently being displayed in "FOV Base Pointer". Then right-click the "FOV
+   Base Pointer" entry in Cheat Table and select "Set/Change Hotkeys". Enter
+   the value as shown in the the screenshot below.
 
+   Set your own preference: ![change hotkeys screenshot][change-hotkeys]
 
 
 [default-fov]: https://github.com/mklinik/lotro-fov/raw/master/doc/20201105070746_1.jpg
@@ -48,3 +62,4 @@ If you don't know what this means, you need the 32-bit version.
 [attach-to-process]: https://github.com/mklinik/lotro-fov/raw/master/doc/attach-to-process.png
 [load-cheat-table]: https://github.com/mklinik/lotro-fov/raw/master/doc/load-cheat-table.png
 [verify-value]: https://github.com/mklinik/lotro-fov/raw/master/doc/verify-value.png
+[change-hotkeys]: https://github.com/mklinik/lotro-fov/raw/master/doc/change-hotkeys.png
